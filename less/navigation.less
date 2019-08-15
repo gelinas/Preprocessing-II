@@ -12,6 +12,11 @@
         padding: 15px 0px;
         margin: 0 auto;
 
+        @media @mobile {
+            .flex(column, nowrap, space-between, center);
+            padding: 0px;
+          }
+
         .nav-links {
             .flex(row, nowrap, space-between, center);
             a{
@@ -19,6 +24,10 @@
                 padding: 10px;
                 font-size: 1.2rem;
             }
+            @media @mobile {
+                width:100%;
+                .flex(row, nowrap, space-evenly, center);
+              }
         }
     }
 }
