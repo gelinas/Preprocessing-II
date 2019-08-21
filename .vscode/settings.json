@@ -1,0 +1,7 @@
+{
+	"less.compile": {
+		"compress": true,
+		"autoprefixer": "> 1%, last 2 versions",
+		"out": false,
+   }
+}
